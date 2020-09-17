@@ -4,11 +4,9 @@ const Intern = require("./lib/Intern");
 const inquirer = require("inquirer");
 const path = require("path");
 const fs = require("fs");
-
 const OUTPUT_DIR = path.resolve(__dirname, "output");
 const outputPath = path.join(OUTPUT_DIR, "team.html");
-
-const render = require("./lib/htmlRenderer");
+const {render, renderManager} = require("./lib/htmlRenderer");
 
 
 // Write code to use inquirer to gather information about the development team members,
@@ -47,7 +45,10 @@ inquirer.prompt(
     ]
 ).then(function(answers){
     console.log(answers)
-    const manager = new Manager(answers.managerName, answers.manager...)
+    const manager = new Manager(answers.managerName, answers.managerId, answers.managerEmail, answers.managerNumber)
+    console.log(manager)
+    const managerHtml = renderManager(manager);
+    console.log(managerHtml);
 })
 
 // After the user has input all employees desired, call the `render` function (required
