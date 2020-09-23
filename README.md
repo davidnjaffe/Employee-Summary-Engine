@@ -38,6 +38,8 @@ Project license: MIT
 
 ## Notes
 
+<iframe src="https://drive.google.com/file/d/1GWzMwpZJ94KFq5QpMFrsWZQX-RMSQeZ1/preview" width="640" height="480"></iframe>
+
 Technologies used: CLI, node.js, inquirer npm package, jest
                                                         
 ## Questions
