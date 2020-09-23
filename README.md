@@ -1,6 +1,6 @@
 # Employee Summary Template Engine
 
-![Good Readme Generator Demo](./Assets/Team%20homepage.png)
+![Employee Summary Engine](./Assets/Team%20homepage.png)
 
 ## Description 
 
