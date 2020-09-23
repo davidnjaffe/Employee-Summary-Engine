@@ -1,5 +1,7 @@
 # Employee Summary Template Engine
 
+![Good Readme Generator Demo](.Assets/Team%20homepage.png)
+
 ## Description 
 
 For this assignment I built a command line application that will promt the user for information about therir work team. The infomration will then be output to dynamically generated html cards.
