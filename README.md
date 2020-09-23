@@ -1,6 +1,10 @@
 # Employee Summary Template Engine
 
+![Employee Summary Engine](./Assets/App%20running.gif)
+
 ![Employee Summary Engine](./Assets/Team%20homepage.png)
+
+![Employee Summary Engine](./Assets/passing%20all%20unit%20tests.png)
 
 ## Description 
 
@@ -39,8 +43,8 @@ undefined
 Project license: MIT
 
 ## Notes
-
-<iframe src="https://drive.google.com/file/d/1GWzMwpZJ94KFq5QpMFrsWZQX-RMSQeZ1/preview" width="640" height="480"></iframe>
+View app in use:
+https://drive.google.com/file/d/1GWzMwpZJ94KFq5QpMFrsWZQX-RMSQeZ1/view
 
 Technologies used: CLI, node.js, inquirer npm package, jest
                                                         
